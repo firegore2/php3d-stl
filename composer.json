@@ -1,9 +1,9 @@
 {
-  "name": "php3d/stl",
+  "name": "firegore2/php3d-stl",
   "type": "library",
   "description": "STL file manipulation library for PHP 7",
   "keywords": ["stl","3d", "stereolithography", "3d printing"],
-  "homepage": "https://github.com/fgheorghe/php3d-stl",
+  "homepage": "https://github.com/firegore2/php3d-stl",
   "license": "MIT",
   "authors": [
     {
@@ -14,8 +14,13 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.0"
+  },
+  "require-dev": {
     "phpunit/phpunit": "5.4.6"
+  },
+  "config": {
+    "no-dev": "true"
   },
   "autoload": {
     "classmap": [
